@@ -1,8 +1,11 @@
 <?php
 
 use App\Http\Controllers\DataMhs;
+use App\Http\Controllers\StudentController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DataController;
+
+Route::get('/students', [StudentController::class, 'index'])-> name('students.index');
 
 Route::get('form', [DataController::class, 'form']);
 Route::post('proses', [DataController::class, 'proses']);
