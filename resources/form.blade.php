@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Form Biodata</title>
+    <title>Form Input Mahasiswa</title>
 </head>
 <body>
     <h2>Input Data Mahasiswa</h2>
@@ -12,10 +12,10 @@
     <input type="text" name="nama"><br><br>
 
     <label>NIM : </label><br>
-    <input type="text" name="nim"><br><br>
+    <input type="text" name="nim">
 
     <label>Jurusan : </label><br>
-    <input type="text" name="jurusan"><br><br>
+    <input type="text" name="jurusan" id="">
 
     <button type="submit">Simpan</button>
     </form>
